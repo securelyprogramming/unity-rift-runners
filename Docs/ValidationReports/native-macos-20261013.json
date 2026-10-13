@@ -1,0 +1,768 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-13",
+  "gameId": "rift-runners",
+  "title": "Rift Runners",
+  "status": "passed",
+  "releaseReadiness": "not-ready",
+  "build": {
+    "platform": "macOS",
+    "target": "StandaloneOSX",
+    "configuration": "Development",
+    "engineVersion": "6000.6.0f1",
+    "status": "Succeeded",
+    "errors": 0,
+    "warnings": 1,
+    "bytes": 168037569,
+    "warningClassification": "Upstream TextMeshPro/Mobile/Distance Field shader uses deprecated enable_d3d11_debug_symbols pragma; preserved without suppression.",
+    "sourceCommitAtBuild": "0410d8539976d7230498659deab06f682a47cba3",
+    "runtimeAssemblySha256": "ac8f2873b588e981909035a97942d37f25fcc0bfdf53021ee8bd6d8b6119d428"
+  },
+  "sourceSha256": {
+    "Core/Actions.cs": "369b4d899583a83ded41906b469a5df6d5c7139c7fbd939c33a875c8362f5731",
+    "Core/Chapters.cs": "a5fc5d151096353f58546fd2fe709f23dcf656ef147c30159f8d2a7d0beacec5",
+    "Core/Models.cs": "c23507a1d77ccf236964f62f23c3a31986c8df5016cbf52a225df463662391bc",
+    "Core/PlaytestDriver.cs": "95f326e3530e6d52682c934d5598ed35f0129270d5bbb61e53a0ac15a0b79dce",
+    "Core/Simulation.cs": "3b2a74b963e6833906351e75f926fd9c2842de200b41ec4f7d3f6f68c80a4228",
+    "Core/Ticking.cs": "cbb4d1a04b0fb141a06cd4ccf7e75e23bb5caccb3c48a8dcfb256f31242dd8b6",
+    "Networking/JsonPayload.cs": "c51ba0412259a40e4719465244e4921413bc5f702330aa1e34e0441119bce795",
+    "Networking/LanDiscovery.cs": "e0ee19b0b5998e6b0578159cfa5e4a9bf8e087609047b829ba0b495f2a946b43",
+    "Networking/LanSession.cs": "745fe9768da93bc16fdcf16bc7414cf0c92461b219d16d5a54f0c9da5e24e4dc",
+    "Unity/Art/FrontierCharacters.cs": "30510287a8b0fc5ec0fe59211198571d28b9312ab6d07dfe00852ae50e15664f",
+    "Unity/Art/FrontierMeshKit.cs": "f364417004d251c0be2b64e214a915278bd990b26d353daa0e505514cdbfe00f",
+    "Unity/Art/FrontierProps.cs": "597008fbd01611cf558047a77adc2a3b86a6e5be79c2ac24ad7a5a08b549903f",
+    "Unity/Art/FrontierStages.cs": "842673a83ef2a6c54e08e737d6e146836b1b2a711e427fb050538a82f660a6db",
+    "Unity/Art/FrontierWorldView.cs": "c8187282093938bd1643f9dc8c82ae519b59bcaa78bb578e1d41f2f1391e1ff8",
+    "Unity/FrontierAudio.cs": "2f6171a549dc654a41368b4af1ea488ebc789513298e765482c59db3558a896f",
+    "Unity/FrontierGame.cs": "168bf002710b117fb455a88c7f5327e2fb1c7574146ff63004a29572f41f808a",
+    "Unity/FrontierProfile.cs": "0bf831d8458345d5fa1b7df86667d23b3ab8479299c9efb6e89884895a07c5e3",
+    "Unity/FrontierUI.cs": "8bd79ef963bee8166b9c6f9c75079cb660b0971800ea505b6a2057491383ef55",
+    "Unity/QA/FrontierNativeProbe.cs": "05f977f5df4d675f7b7542ca5fac77246fa478ee69aa7a5074628c84126a9384"
+  },
+  "campaign": {
+    "schemaVersion": 1,
+    "gameId": "rift-runners",
+    "mode": "campaign",
+    "status": "passed",
+    "unityVersion": "6000.6.0f1",
+    "platform": "OSXPlayer",
+    "failure": "",
+    "scope": "Actual Unity standalone rendering and production UI/input/core; virtual gamepad; LAN roles use independent local player processes.",
+    "physicalControllerTested": false,
+    "physicalLanTested": false,
+    "windowsLinuxExecutionTested": false,
+    "steamCertification": false,
+    "completedChapters": 3,
+    "commandCount": 621,
+    "snapshotsReceived": 0,
+    "localPlayerId": 0,
+    "wallSeconds": 4.6778886,
+    "checks": [
+      {
+        "name": "diagnostic executes in a standalone Unity player",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "native diagnostic isolation",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "real Unity camera and authored presentation",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "title menu has production campaign, settings, controls and LAN actions",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "native screenshot was written: menu",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "native screenshot is a complete PNG: menu",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "native screenshot has rendered dimensions: menu",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "production UI button available: Settings",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "settings screen is reachable through its real menu button",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "production UI button available: Master volume:",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "volume control applies and persists",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "production UI button available: Quality:",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "quality control persists",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "input binding override is saved",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "isolated save has a valid backup",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "corrupted isolated save recovers its last valid backup",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "loading preserves damaged primary for diagnosis",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "valid local save repairs primary without deleting backup",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "settings survive repaired primary load",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "separate corrupt-pair fixture creates a valid primary",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "separate corrupt-pair fixture creates a valid backup",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "two damaged isolated saves fall back to chapter one",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "fallback preserves both damaged isolated files",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "fresh primary can recover while retaining damaged backup",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "corrupt-pair fixture leaves actual QA campaign intact",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "production UI button available: Controls",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "controls screen is reachable",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "production UI button available: Credits",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "credits screen is reachable",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "production UI button available: Begin campaign",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "campaign menu enters authored story",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "native screenshot was written: story",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "native screenshot is a complete PNG: story",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "native screenshot has rendered dimensions: story",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "production UI button available: Enter chapter",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "story button starts gameplay",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "virtual gamepad device is registered",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "uGUI input module and a selected menu button are active",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "virtual D-pad navigates actual uGUI selectable buttons",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "controller submit target is a real settings button",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "virtual south submits through actual InputSystem uGUI module",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "virtual east resolves Cancel binding",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "east returns settings to its real pause-menu parent",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "east resumes from the actual pause menu",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "east during play does not abandon the campaign",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "virtual left stick moves through actual gameplay input",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "virtual right stick resolves the aim action",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "releasing movement sends zero intent",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "virtual A resolves Interact",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "virtual X resolves Attack",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "virtual LeftShoulder resolves Build",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "virtual RightShoulder resolves Craft",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "right trigger resolves attack action",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "virtual Start resolves pause action",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "Start opens the real solo pause panel",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "solo pause stops actual simulation time",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "Start resumes through production dispatch",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "Select opens authored journal through production dispatch",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "Select returns from journal to play",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "native screenshot was written: gameplay",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "native screenshot is a complete PNG: gameplay",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "native screenshot has rendered dimensions: gameplay",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "production commands complete chapter 1",
+        "detail": "Your squad is the last one standing in the rift arena.",
+        "passed": true
+      },
+      {
+        "name": "native screenshot was written: victory1",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "native screenshot is a complete PNG: victory1",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "native screenshot has rendered dimensions: victory1",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "native screenshot was written: story2",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "native screenshot is a complete PNG: story2",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "native screenshot has rendered dimensions: story2",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "production commands complete chapter 2",
+        "detail": "Your squad is the last one standing in the rift arena.",
+        "passed": true
+      },
+      {
+        "name": "native screenshot was written: victory2",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "native screenshot is a complete PNG: victory2",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "native screenshot has rendered dimensions: victory2",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "native screenshot was written: story3",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "native screenshot is a complete PNG: story3",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "native screenshot has rendered dimensions: story3",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "native screenshot was written: chapter3",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "native screenshot is a complete PNG: chapter3",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "native screenshot has rendered dimensions: chapter3",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "production commands complete chapter 3",
+        "detail": "Your squad is the last one standing in the rift arena.",
+        "passed": true
+      },
+      {
+        "name": "native screenshot was written: victory3",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "native screenshot is a complete PNG: victory3",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "native screenshot has rendered dimensions: victory3",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "non-mutating production driver has no failure",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "three complete chapters accepted in the native player",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "presentation observed and unlocked all actual chapter wins",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "completed campaign unlocks save atomically",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "same-process progression round-trip",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "native screenshot was written: finale",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "native screenshot is a complete PNG: finale",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "native screenshot has rendered dimensions: finale",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "rendered world has player and gameplay entities",
+        "detail": "",
+        "passed": true
+      }
+    ],
+    "chapters": [
+      {
+        "chapter": 1,
+        "commands": 159,
+        "tick": 145,
+        "progress": 6,
+        "goal": 6,
+        "simulationSeconds": 7.25,
+        "completed": true
+      },
+      {
+        "chapter": 2,
+        "commands": 328,
+        "tick": 151,
+        "progress": 8,
+        "goal": 8,
+        "simulationSeconds": 7.550000190734863,
+        "completed": true
+      },
+      {
+        "chapter": 3,
+        "commands": 621,
+        "tick": 255,
+        "progress": 10,
+        "goal": 10,
+        "simulationSeconds": 12.75,
+        "completed": true
+      }
+    ],
+    "errors": [],
+    "warnings": [],
+    "captures": [
+      {
+        "kind": "menu",
+        "sha256": "cb53848679673d2fb5e928d4d1123b65347508b31cd096e79ce05c133fbe5de2",
+        "chapter": 1,
+        "tick": 0,
+        "width": 1440,
+        "height": 900,
+        "file": "gameplay-menu.png"
+      },
+      {
+        "kind": "story",
+        "sha256": "da1d4dbec11b66441abca34f70432d8de1fe532ed2e767afd55b9c6062f442f6",
+        "chapter": 1,
+        "tick": 0,
+        "width": 1440,
+        "height": 900,
+        "file": "gameplay-story.png"
+      },
+      {
+        "kind": "gameplay",
+        "sha256": "3f4be93d0ee8960f5869a5b1b5a919bb0f7354c07803b8cd0212518976813972",
+        "chapter": 1,
+        "tick": 145,
+        "width": 1440,
+        "height": 900,
+        "file": "gameplay.png"
+      },
+      {
+        "kind": "victory1",
+        "sha256": "db532c15a740aa64a1da1df7554ce7934eb7b460f03f558701c8de5862528d17",
+        "chapter": 1,
+        "tick": 145,
+        "width": 1440,
+        "height": 900,
+        "file": "gameplay-victory1.png"
+      },
+      {
+        "kind": "story2",
+        "sha256": "2573f7d6940fc6b7598c30ee84a1749b633a0569fc02ba3afdeda7891aa8b708",
+        "chapter": 2,
+        "tick": 2,
+        "width": 1440,
+        "height": 900,
+        "file": "gameplay-story2.png"
+      },
+      {
+        "kind": "victory2",
+        "sha256": "121a5de4d70c28e51edef32641aa4352b36e664e5f694fb7e782e576df647199",
+        "chapter": 2,
+        "tick": 151,
+        "width": 1440,
+        "height": 900,
+        "file": "gameplay-victory2.png"
+      },
+      {
+        "kind": "story3",
+        "sha256": "20a285b4cb0a2c73fa286f01f6d46b27db4eb579beb9f75fe8833e7e67e2f9df",
+        "chapter": 3,
+        "tick": 2,
+        "width": 1440,
+        "height": 900,
+        "file": "gameplay-story3.png"
+      },
+      {
+        "kind": "chapter3",
+        "sha256": "b4dbe4135727525d62105508c7d00ac1b4fa2e9bef5e56ad091235cabe152535",
+        "chapter": 3,
+        "tick": 242,
+        "width": 1440,
+        "height": 900,
+        "file": "gameplay-chapter3.png"
+      },
+      {
+        "kind": "victory3",
+        "sha256": "0dbbe19890e66d5b735a14c0b221b9388d1878c49867feef8e9e65787314f31f",
+        "chapter": 3,
+        "tick": 255,
+        "width": 1440,
+        "height": 900,
+        "file": "gameplay-victory3.png"
+      },
+      {
+        "kind": "finale",
+        "sha256": "d62bc63bd7b9bc41d7583f7eb6440735f60256b524c197a14aad9bf92588cdee",
+        "chapter": 3,
+        "tick": 255,
+        "width": 1440,
+        "height": 900,
+        "file": "gameplay-finale.png"
+      }
+    ]
+  },
+  "independentRead": {
+    "schemaVersion": 1,
+    "gameId": "rift-runners",
+    "mode": "read",
+    "status": "passed",
+    "unityVersion": "6000.6.0f1",
+    "platform": "OSXPlayer",
+    "failure": "",
+    "scope": "Actual Unity standalone rendering and production UI/input/core; virtual gamepad; LAN roles use independent local player processes.",
+    "physicalControllerTested": false,
+    "physicalLanTested": false,
+    "windowsLinuxExecutionTested": false,
+    "steamCertification": false,
+    "completedChapters": 3,
+    "commandCount": 0,
+    "snapshotsReceived": 0,
+    "localPlayerId": 0,
+    "wallSeconds": 0.1780821,
+    "checks": [
+      {
+        "name": "diagnostic executes in a standalone Unity player",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "native diagnostic isolation",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "real Unity camera and authored presentation",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "title menu has production campaign, settings, controls and LAN actions",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "native screenshot was written: menu",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "native screenshot is a complete PNG: menu",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "native screenshot has rendered dimensions: menu",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "independent process loaded all three chapter unlocks",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "independent process loaded persisted settings",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "independent process restored remapped keyboard action",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "progression is stored only inside the diagnostic sandbox",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "native screenshot was written: reloaded",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "native screenshot is a complete PNG: reloaded",
+        "detail": "",
+        "passed": true
+      },
+      {
+        "name": "native screenshot has rendered dimensions: reloaded",
+        "detail": "",
+        "passed": true
+      }
+    ],
+    "chapters": [],
+    "errors": [],
+    "warnings": [],
+    "captures": [
+      {
+        "kind": "menu",
+        "sha256": "72537fbed0f71c52a2e105c6e1e29c1c69d607193007d4714c7e12aa9b5ad2a4",
+        "chapter": 1,
+        "tick": 0,
+        "width": 1440,
+        "height": 900,
+        "file": "read-menu.png"
+      },
+      {
+        "kind": "reloaded",
+        "sha256": "f71b380c3a2c122342550b7f027a445fe11ae62fd1118f0300d6421fb2ec4962",
+        "chapter": 1,
+        "tick": 0,
+        "width": 1440,
+        "height": 900,
+        "file": "read.png"
+      }
+    ]
+  },
+  "limitations": [
+    "Physical controller hardware and ergonomics not tested.",
+    "Separate-machine LAN, router/firewall behavior, latency and native LAN chapter/retry transitions not accepted.",
+    "Windows/Linux native execution not tested; corresponding build profiles require those hosts/modules.",
+    "Signing, notarization, Steamworks account/AppID/depots, store materials and release review remain incomplete.",
+    "Art, pacing, accessibility, audio and performance still require production work.",
+    "Workbench maps are planning drafts; no runtime map adapter is claimed."
+  ]
+}
