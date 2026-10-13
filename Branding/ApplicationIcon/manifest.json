@@ -1,0 +1,69 @@
+{
+  "art": {
+    "accent": "#b29aff",
+    "kind": "original-vector",
+    "motif": "Glider through a rift",
+    "provenance": "Repository-native SVG authored for this game; no paid source artwork.",
+    "sourceSha256": "0121920cdfd8651446040950867401ecd068eae04b5e66add8433c6ab93f2b42"
+  },
+  "assets": {
+    "icon-128.png": {
+      "bytes": 20573,
+      "sha256": "f5c6f5ebdf80c7c8fed033a0688bb6e3c4d53c84410e9393d9337092607c2d5e"
+    },
+    "icon-16.png": {
+      "bytes": 937,
+      "sha256": "9fd0a8010c4a4abf681ccd7e17c8ae2c1dd44c65c1890bf5c1b6ac3445adf8f0"
+    },
+    "icon-256.png": {
+      "bytes": 55647,
+      "sha256": "61897db3aa02f6863779159a8414f3d5a0318258a4ab861f191cab236ce40ff0"
+    },
+    "icon-32.png": {
+      "bytes": 2546,
+      "sha256": "05aa028d9f9d356b8540e914695202145c0c9f6297cce204eec1161f992b2ff5"
+    },
+    "icon-512.png": {
+      "bytes": 148597,
+      "sha256": "2746202c912a5d26ba2c90c85e1eebc6611c924e5b8b45d56299e89c9164a977"
+    },
+    "icon-64.png": {
+      "bytes": 7533,
+      "sha256": "0e8ae04886bd733c3383ed440a8611b7ba197a247fa5868f1f5f0f6f1b9765d7"
+    },
+    "icon.bmp": {
+      "bytes": 196662,
+      "sha256": "3369c3be0240ffb2eb8fe5d0d62a80232b0901b8201fe0ea7dee0d7219bcc12e"
+    },
+    "icon.icns": {
+      "bytes": 693288,
+      "sha256": "10bdc8e0ff31f404a877d6269d414050c386a5de7ba8c958a89f864d21732585"
+    },
+    "icon.ico": {
+      "bytes": 94827,
+      "sha256": "33e6e792ca27a7f744163f5096634988510b969798de6868e178d9473f6fe361"
+    },
+    "icon.png": {
+      "bytes": 290743,
+      "sha256": "c9b48f37158357bb8a98d1c5c23a48c7042efce36b4db663f6971d2dbaa1777b"
+    },
+    "source.png": {
+      "bytes": 263636,
+      "sha256": "0121920cdfd8651446040950867401ecd068eae04b5e66add8433c6ab93f2b42"
+    },
+    "source.svg": {
+      "bytes": 1472,
+      "sha256": "e6910fa673e930086be381ee73fb4fc25827eb37cf154fbffe19bb9977cb2ddc"
+    }
+  },
+  "gameId": "rift-runners",
+  "installs": [
+    {
+      "asset": "source.png",
+      "path": "Assets/Editor/Branding/GameAppIcon.png"
+    }
+  ],
+  "pipeline": "securelyprogramming/game-workbench/scripts/game-icons.py",
+  "schemaVersion": 1,
+  "scope": "Application icons only; store capsules and platform release certification are separate."
+}

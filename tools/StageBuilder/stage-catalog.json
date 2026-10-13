@@ -15,16 +15,16 @@
       "managedBy": "frontier-workbench-v1",
       "images": {
         "preview": {
-          "path": "Portfolio/Previews/frontier/rift-runners/2026-10-13/gameplay.png",
-          "bytes": 138081,
-          "sha256": "3f4be93d0ee8960f5869a5b1b5a919bb0f7354c07803b8cd0212518976813972",
+          "path": "Portfolio/Previews/polish/2026-10-13/rift-runners/gameplay.png",
+          "bytes": 154248,
+          "sha256": "72a756704a3eda8227c2c1b6925471022cdf60223bd216d4fe7192ab0c58387a",
           "width": 1440,
           "height": 900
         }
       },
       "notes": [
         "Jax enters the circuit to win safe passage for a stranded salvage crew.",
-        "ScreenCapture from the Unity 6000.6.0f1 native OSXPlayer; report capture kind gameplay, chapter 1, simulation tick 145.",
+        "Fresh polished Unity6000.6 macOS player, 2026-10-13. Actual ScreenCapture: gameplay, chapter 1, simulation tick 145.",
         "The matching native report records three chapters completed through production commands. This capture is a view of the listed chapter, not a playable browser build.",
         "Physical controller ergonomics, separate-machine LAN, Windows/Linux execution and Steam release acceptance remain separate checks."
       ],
@@ -57,16 +57,16 @@
       "managedBy": "frontier-workbench-v1",
       "images": {
         "preview": {
-          "path": "Portfolio/Previews/frontier/rift-runners/2026-10-13/gameplay-chapter3.png",
-          "bytes": 139413,
-          "sha256": "b4dbe4135727525d62105508c7d00ac1b4fa2e9bef5e56ad091235cabe152535",
+          "path": "Portfolio/Previews/polish/2026-10-13/rift-runners/gameplay-chapter3.png",
+          "bytes": 159676,
+          "sha256": "221c8edea634b60d9e82c4fcb28a99d1ca90cb1f41a83ba6ce38e9187e413d12",
           "width": 1440,
           "height": 900
         }
       },
       "notes": [
         "Aster can close the rift after the final trial proves who can bring the crew through.",
-        "ScreenCapture from the Unity 6000.6.0f1 native OSXPlayer; report capture kind chapter3, chapter 3, simulation tick 242.",
+        "Fresh polished Unity6000.6 macOS player, 2026-10-13. Actual ScreenCapture: chapter3, chapter 3, simulation tick 242.",
         "The matching native report records three chapters completed through production commands. This capture is a view of the listed chapter, not a playable browser build.",
         "Physical controller ergonomics, separate-machine LAN, Windows/Linux execution and Steam release acceptance remain separate checks."
       ],
@@ -83,16 +83,16 @@
       "managedBy": "frontier-workbench-v1",
       "images": {
         "preview": {
-          "path": "Portfolio/Previews/frontier/rift-runners/2026-10-13/gameplay-menu.png",
-          "bytes": 115743,
-          "sha256": "cb53848679673d2fb5e928d4d1123b65347508b31cd096e79ce05c133fbe5de2",
+          "path": "Portfolio/Previews/polish/2026-10-13/rift-runners/gameplay-menu.png",
+          "bytes": 112939,
+          "sha256": "a3d68633881bd09b816dbe8e42acee89850bdcfee88cdc367a917252df3025cd",
           "width": 1440,
           "height": 900
         }
       },
       "notes": [
-        "ScreenCapture from the Unity 6000.6.0f1 native OSXPlayer; report capture kind menu, chapter 1, simulation tick 0.",
         "The matching native report records three chapters completed through production commands. This capture is a view of the listed chapter, not a playable browser build.",
+        "Fresh polished Unity6000.6 macOS player, 2026-10-13. Actual ScreenCapture: menu, chapter 1, simulation tick 0.",
         "Physical controller ergonomics, separate-machine LAN, Windows/Linux execution and Steam release acceptance remain separate checks."
       ],
       "sourceEvidence": [
@@ -106,7 +106,7 @@
       "managedBy": "frontier-workbench-v1",
       "images": {
         "preview": {
-          "path": "Portfolio/Previews/frontier/rift-runners/2026-10-13/gameplay-story.png",
+          "path": "Portfolio/Previews/polish/2026-10-13/rift-runners/gameplay-story.png",
           "bytes": 119106,
           "sha256": "da1d4dbec11b66441abca34f70432d8de1fe532ed2e767afd55b9c6062f442f6",
           "width": 1440,
@@ -114,8 +114,8 @@
         }
       },
       "notes": [
-        "ScreenCapture from the Unity 6000.6.0f1 native OSXPlayer; report capture kind story, chapter 1, simulation tick 0.",
         "The matching native report records three chapters completed through production commands. This capture is a view of the listed chapter, not a playable browser build.",
+        "Fresh polished Unity6000.6 macOS player, 2026-10-13. Actual ScreenCapture: story, chapter 1, simulation tick 0.",
         "Physical controller ergonomics, separate-machine LAN, Windows/Linux execution and Steam release acceptance remain separate checks."
       ],
       "sourceEvidence": [
@@ -129,16 +129,16 @@
       "managedBy": "frontier-workbench-v1",
       "images": {
         "preview": {
-          "path": "Portfolio/Previews/frontier/rift-runners/2026-10-13/gameplay-victory1.png",
-          "bytes": 137384,
-          "sha256": "db532c15a740aa64a1da1df7554ce7934eb7b460f03f558701c8de5862528d17",
+          "path": "Portfolio/Previews/polish/2026-10-13/rift-runners/gameplay-victory1.png",
+          "bytes": 154541,
+          "sha256": "30fad47615224d380c21c240cbaba2ef6a2db1d3b7e1a5914bbb9c70c1f30f6c",
           "width": 1440,
           "height": 900
         }
       },
       "notes": [
-        "ScreenCapture from the Unity 6000.6.0f1 native OSXPlayer; report capture kind victory1, chapter 1, simulation tick 145.",
         "The matching native report records three chapters completed through production commands. This capture is a view of the listed chapter, not a playable browser build.",
+        "Fresh polished Unity6000.6 macOS player, 2026-10-13. Actual ScreenCapture: victory1, chapter 1, simulation tick 145.",
         "Physical controller ergonomics, separate-machine LAN, Windows/Linux execution and Steam release acceptance remain separate checks."
       ],
       "sourceEvidence": [
@@ -152,16 +152,16 @@
       "managedBy": "frontier-workbench-v1",
       "images": {
         "preview": {
-          "path": "Portfolio/Previews/frontier/rift-runners/2026-10-13/gameplay-story2.png",
-          "bytes": 125500,
-          "sha256": "2573f7d6940fc6b7598c30ee84a1749b633a0569fc02ba3afdeda7891aa8b708",
+          "path": "Portfolio/Previews/polish/2026-10-13/rift-runners/gameplay-story2.png",
+          "bytes": 125588,
+          "sha256": "f443a4159c3a59501d05638a9c327ae2a7eb6051db3667fa96ae447f681f2094",
           "width": 1440,
           "height": 900
         }
       },
       "notes": [
-        "ScreenCapture from the Unity 6000.6.0f1 native OSXPlayer; report capture kind story2, chapter 2, simulation tick 2.",
         "The matching native report records three chapters completed through production commands. This capture is a view of the listed chapter, not a playable browser build.",
+        "Fresh polished Unity6000.6 macOS player, 2026-10-13. Actual ScreenCapture: story2, chapter 2, simulation tick 2.",
         "Physical controller ergonomics, separate-machine LAN, Windows/Linux execution and Steam release acceptance remain separate checks."
       ],
       "sourceEvidence": [
@@ -175,16 +175,16 @@
       "managedBy": "frontier-workbench-v1",
       "images": {
         "preview": {
-          "path": "Portfolio/Previews/frontier/rift-runners/2026-10-13/gameplay-victory2.png",
-          "bytes": 143927,
-          "sha256": "121a5de4d70c28e51edef32641aa4352b36e664e5f694fb7e782e576df647199",
+          "path": "Portfolio/Previews/polish/2026-10-13/rift-runners/gameplay-victory2.png",
+          "bytes": 157840,
+          "sha256": "ed4d2fe4bd453856a128f5fbd909983162861f0fe5ed4f83d9bddc5d2789e8b5",
           "width": 1440,
           "height": 900
         }
       },
       "notes": [
-        "ScreenCapture from the Unity 6000.6.0f1 native OSXPlayer; report capture kind victory2, chapter 2, simulation tick 151.",
         "The matching native report records three chapters completed through production commands. This capture is a view of the listed chapter, not a playable browser build.",
+        "Fresh polished Unity6000.6 macOS player, 2026-10-13. Actual ScreenCapture: victory2, chapter 2, simulation tick 151.",
         "Physical controller ergonomics, separate-machine LAN, Windows/Linux execution and Steam release acceptance remain separate checks."
       ],
       "sourceEvidence": [
@@ -198,16 +198,16 @@
       "managedBy": "frontier-workbench-v1",
       "images": {
         "preview": {
-          "path": "Portfolio/Previews/frontier/rift-runners/2026-10-13/gameplay-story3.png",
-          "bytes": 131173,
-          "sha256": "20a285b4cb0a2c73fa286f01f6d46b27db4eb579beb9f75fe8833e7e67e2f9df",
+          "path": "Portfolio/Previews/polish/2026-10-13/rift-runners/gameplay-story3.png",
+          "bytes": 130873,
+          "sha256": "1434963c87efb317bf21e3f366205279856811847871f1638f1cc76ae0ae221f",
           "width": 1440,
           "height": 900
         }
       },
       "notes": [
-        "ScreenCapture from the Unity 6000.6.0f1 native OSXPlayer; report capture kind story3, chapter 3, simulation tick 2.",
         "The matching native report records three chapters completed through production commands. This capture is a view of the listed chapter, not a playable browser build.",
+        "Fresh polished Unity6000.6 macOS player, 2026-10-13. Actual ScreenCapture: story3, chapter 3, simulation tick 2.",
         "Physical controller ergonomics, separate-machine LAN, Windows/Linux execution and Steam release acceptance remain separate checks."
       ],
       "sourceEvidence": [
@@ -221,16 +221,16 @@
       "managedBy": "frontier-workbench-v1",
       "images": {
         "preview": {
-          "path": "Portfolio/Previews/frontier/rift-runners/2026-10-13/gameplay-victory3.png",
-          "bytes": 145251,
-          "sha256": "0dbbe19890e66d5b735a14c0b221b9388d1878c49867feef8e9e65787314f31f",
+          "path": "Portfolio/Previews/polish/2026-10-13/rift-runners/gameplay-victory3.png",
+          "bytes": 159899,
+          "sha256": "89092374a9739c4e80484a809c3b8bf14982292c18ebba5839dc5a75cf94838d",
           "width": 1440,
           "height": 900
         }
       },
       "notes": [
-        "ScreenCapture from the Unity 6000.6.0f1 native OSXPlayer; report capture kind victory3, chapter 3, simulation tick 255.",
         "The matching native report records three chapters completed through production commands. This capture is a view of the listed chapter, not a playable browser build.",
+        "Fresh polished Unity6000.6 macOS player, 2026-10-13. Actual ScreenCapture: victory3, chapter 3, simulation tick 255.",
         "Physical controller ergonomics, separate-machine LAN, Windows/Linux execution and Steam release acceptance remain separate checks."
       ],
       "sourceEvidence": [
@@ -244,16 +244,16 @@
       "managedBy": "frontier-workbench-v1",
       "images": {
         "preview": {
-          "path": "Portfolio/Previews/frontier/rift-runners/2026-10-13/gameplay-finale.png",
-          "bytes": 125553,
-          "sha256": "d62bc63bd7b9bc41d7583f7eb6440735f60256b524c197a14aad9bf92588cdee",
+          "path": "Portfolio/Previews/polish/2026-10-13/rift-runners/gameplay-finale.png",
+          "bytes": 125239,
+          "sha256": "c27170e8531203c3aa9bbb25acfc16acd5ba94cf45d104c202ec1d88ba58a703",
           "width": 1440,
           "height": 900
         }
       },
       "notes": [
-        "ScreenCapture from the Unity 6000.6.0f1 native OSXPlayer; report capture kind finale, chapter 3, simulation tick 255.",
         "The matching native report records three chapters completed through production commands. This capture is a view of the listed chapter, not a playable browser build.",
+        "Fresh polished Unity6000.6 macOS player, 2026-10-13. Actual ScreenCapture: finale, chapter 3, simulation tick 255.",
         "Physical controller ergonomics, separate-machine LAN, Windows/Linux execution and Steam release acceptance remain separate checks."
       ],
       "sourceEvidence": [
