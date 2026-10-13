@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "slug": "rift-runners",
+  "title": "Rift Runners",
+  "engine": "Unity",
+  "projectPath": "unity-rift-runners/Game",
+  "galleryRoot": "_Workspace",
+  "isConcept": false,
+  "status": "development-prototype-previews-pending",
+  "stages": [
+    {
+      "id": "frontier-chapter-1",
+      "title": "Chapter 1: Scrap Circuit",
+      "kind": "development-campaign-reference",
+      "managedBy": "frontier-workbench-v1",
+      "images": {},
+      "notes": [
+        "Jax enters the circuit to win safe passage for a stranded salvage crew.",
+        "This is an authored campaign reference. A native preview is connected only after its matching report and image hashes verify."
+      ],
+      "sourceEvidence": [
+        "unity-rift-runners/ContentSource/campaign.json",
+        "unity-rift-runners/Game/Assets/Frontier/Core/Chapters.cs",
+        "unity-rift-runners/Game/Assets/Frontier/Unity/Art/FrontierWorldView.cs"
+      ]
+    },
+    {
+      "id": "frontier-chapter-2",
+      "title": "Chapter 2: Moving Horizon",
+      "kind": "development-campaign-reference",
+      "managedBy": "frontier-workbench-v1",
+      "images": {},
+      "notes": [
+        "The horizon is moving. Rin teaches the runners to turn scrap into routes and cover.",
+        "This is an authored campaign reference. A native preview is connected only after its matching report and image hashes verify."
+      ],
+      "sourceEvidence": [
+        "unity-rift-runners/ContentSource/campaign.json",
+        "unity-rift-runners/Game/Assets/Frontier/Core/Chapters.cs",
+        "unity-rift-runners/Game/Assets/Frontier/Unity/Art/FrontierWorldView.cs"
+      ]
+    },
+    {
+      "id": "frontier-chapter-3",
+      "title": "Chapter 3: The Rift Crown",
+      "kind": "development-campaign-reference",
+      "managedBy": "frontier-workbench-v1",
+      "images": {},
+      "notes": [
+        "Aster can close the rift after the final trial proves who can bring the crew through.",
+        "This is an authored campaign reference. A native preview is connected only after its matching report and image hashes verify."
+      ],
+      "sourceEvidence": [
+        "unity-rift-runners/ContentSource/campaign.json",
+        "unity-rift-runners/Game/Assets/Frontier/Core/Chapters.cs",
+        "unity-rift-runners/Game/Assets/Frontier/Unity/Art/FrontierWorldView.cs"
+      ]
+    }
+  ],
+  "runtimeBoundary": "Native captures are references to the standalone development prototype. Workbench workshop edits are separate planning drafts until a runtime adapter is implemented. Physical input, cross-machine LAN, Windows/Linux and Steam release acceptance are tracked separately.",
+  "updated": "2026-10-13"
+}

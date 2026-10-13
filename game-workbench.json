@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "rift-runners",
+  "title": "Rift Runners",
+  "engine": "Unity",
+  "family": "Build and battle",
+  "projectPath": "Game",
+  "gameType": "3d-game",
+  "description": "Build cover, scavenge ammunition, and outlast bots inside a shrinking rift arena. Three-chapter development prototype; controller, multiplayer, platform and Steam release acceptance are tracked separately.",
+  "links": {
+    "repository": "https://github.com/securelyprogramming/unity-rift-runners",
+    "websiteRepository": null,
+    "website": null,
+    "jira": null
+  },
+  "builder": {
+    "openScript": null,
+    "guide": "unity-rift-runners/tools/StageBuilder/README.md"
+  },
+  "catalog": "unity-rift-runners/tools/StageBuilder/stage-catalog.json"
+}

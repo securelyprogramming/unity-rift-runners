@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "rift-runners",
+  "title": "Rift Runners",
+  "mode": "rift-runners",
+  "genre": "build-and-battle",
+  "brief": "An original arena game: collect salvage, build cover and ramps, and outlast bots inside a shrinking rift.",
+  "seed": 212,
+  "difficulty": 1,
+  "repository": "https://github.com/securelyprogramming/unity-rift-runners",
+  "folder": "unity-rift-runners",
+  "engine": "Unity",
+  "engineVersion": "6000.6.0f1",
+  "project": "Game",
+  "targetPlatforms": [
+    "Windows",
+    "macOS",
+    "Linux"
+  ],
+  "storeTarget": "Steam premium PC",
+  "players": "1–4 LAN cooperative players; local solo campaign",
+  "accent": "#b178de",
+  "setting": "arena",
+  "enemy": "bot",
+  "cast": [
+    {
+      "name": "Jax Vale",
+      "role": "scrap runner"
+    },
+    {
+      "name": "Rin Kade",
+      "role": "arena mechanic"
+    },
+    {
+      "name": "Aster",
+      "role": "rift navigator"
+    }
+  ],
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Scrap Circuit",
+      "story": "Jax enters the circuit to win safe passage for a stranded salvage crew.",
+      "layoutSeed": 212
+    },
+    {
+      "number": 2,
+      "title": "Moving Horizon",
+      "story": "The horizon is moving. Rin teaches the runners to turn scrap into routes and cover.",
+      "layoutSeed": 385
+    },
+    {
+      "number": 3,
+      "title": "The Rift Crown",
+      "story": "Aster can close the rift after the final trial proves who can bring the crew through.",
+      "layoutSeed": 558
+    }
+  ],
+  "status": "development; build, gameplay, physical controller, multi-machine LAN and Steam release acceptance tracked separately",
+  "inspiration": "Original characters, names, story and code; genre references are design inspiration only."
+}
