@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 1,
+  "gameId": "rift-runners",
+  "canonicalGameIdentifier": "52ce9a56-648b-4c13-9b2e-1a90cffd0be0--rift-runners",
+  "scope": "game:52ce9a56-648b-4c13-9b2e-1a90cffd0be0--rift-runners",
+  "sourceIdentity": {
+    "repository": "securelyprogramming/unity-rift-runners",
+    "head": "924c7d6427634e20147c38c7f2285451a9cf71fa",
+    "branch": "main",
+    "dirtyPaths": [
+      "M AGENTS.md",
+      " M CLAUDE.md",
+      " M Game/Assets/Editor/Branding/GameAppIcon.png.meta",
+      " M Game/Assets/Editor/PrepareFrontier.cs",
+      " M Game/Assets/Frontier/Unity/Art/FrontierCharacters.cs",
+      " M Game/Assets/Frontier/Unity/Art/FrontierMeshKit.cs",
+      " M Game/Assets/Frontier/Unity/Art/FrontierProps.cs",
+      " M Game/Assets/Frontier/Unity/Art/FrontierStages.cs",
+      " M Game/Assets/Frontier/Unity/Art/FrontierWorldView.cs",
+      " M Game/Assets/Frontier/Unity/FrontierGame.cs",
+      " M Game/Assets/Frontier/Unity/FrontierUI.cs",
+      " M Game/Assets/Frontier/Unity/QA/FrontierNativeProbe.cs",
+      " M Game/ProjectSettings/EditorBuildSettings.asset",
+      " M Game/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json",
+      " M Game/ProjectSettings/ProjectAuditorSettings.asset",
+      " M Game/ProjectSettings/ProjectSettings.asset",
+      " M game-design.json",
+      " M tools/StageBuilder/stage-catalog.json",
+      " M tools/playtest/build.py",
+      "?? ContentSource/Art/presentation-selection.json",
+      "?? Docs/AI/",
+      "?? Docs/PurchasedPresentation.md",
+      "?? Docs/ValidationReports/LocalWindows-20261017.json",
+      "?? Docs/ValidationReports/PurchasedPresentation-20261018.json",
+      "?? Docs/ValidationReports/WorkbenchGameplayWindows-20261017.json",
+      "?? Docs/ValidationReports/WorkbenchWindows-20261017.json",
+      "?? Game/Assets/Editor/Branding.meta",
+      "?? Game/Assets/Editor/PrepareFrontierPurchasedArt.cs",
+      "?? Game/Assets/Editor/PrepareFrontierPurchasedArt.cs.meta",
+      "?? Game/Assets/Frontier/Unity/Art/FrontierPurchasedArt.cs",
+      "?? Game/Assets/Frontier/Unity/Art/FrontierPurchasedArt.cs.meta",
+      "?? Game/Assets/Frontier/Unity/Art/FrontierPurchasedCharacter.cs",
+      "?? Game/Assets/Frontier/Unity/Art/FrontierPurchasedCharacter.cs.meta",
+      "?? Game/Assets/Frontier/Unity/WorkbenchDebug.cs",
+      "?? Game/Assets/Frontier/Unity/WorkbenchDebug.cs.meta",
+      "?? Game/Assets/Resources/FrontierPurchasedArt.json",
+      "?? Game/Assets/Resources/FrontierPurchasedArt.json.meta",
+      "?? game-workbench.assets.json",
+      "?? game-workbench.builder.json",
+      "?? stage-catalog.json",
+      "?? tools/playtest/restore_presentation.py"
+    ],
+    "sourceSnapshotAt": "2026-10-21T23:48:02.920Z"
+  },
+  "generatedFromCachedSnapshot": true,
+  "sourceFiles": [
+    {
+      "path": "game-workbench.json",
+      "sha256": "329b004e2f5a8804fd5fb8991f468565319c1d26fa7b07bdc1eb5fd9484f5d8c"
+    },
+    {
+      "path": "game-design.json",
+      "sha256": "633f0895c912cb8e5f9eff324e89207111932ceb43e0e087bde7981928b6e40b"
+    },
+    {
+      "path": "stage-catalog.json",
+      "sha256": "4aa16fc0fd2d4bb5985c2444493bde7ee6b6c2375d56f8b6e2c5f2a35234dfae"
+    },
+    {
+      "path": "game-workbench.assets.json",
+      "sha256": "f6c2aaf548afacf90fc2d2ee8ae08188d5a54ed03f29e504791b1bd2fd6ed6ff"
+    },
+    {
+      "path": "game-workbench.builder.json",
+      "sha256": "22be246e92a141181d40b394249e6cb39c38c299318d19cb9c5b8a3680ac3b80"
+    },
+    {
+      "path": "playtest.build.json",
+      "sha256": "01ee3d54088ee0d45ce3a568e066c15e5b9b13a299c71ce0705663929bf31264"
+    },
+    {
+      "path": "README.md",
+      "sha256": "0860224d5fe32e111c3c435c07182a4518b16871f5fd91e9f69a74b03dc0da86"
+    },
+    {
+      "path": "ContentSource/campaign.json",
+      "sha256": "1c6e78cf87c25535fc2f76dcf0fd3b31f1a6f504fc39123e32be548112babdc3"
+    },
+    {
+      "path": "Game/Assets/Frontier/Unity/FrontierGame.cs",
+      "sha256": "465b04fb9705b254516571caa6691274921d9553b44bb47c815de299aa1f6a19"
+    },
+    {
+      "path": "Game/Assets/Frontier/Unity/FrontierProfile.cs",
+      "sha256": "2b4ce1c1fbdfec2dcbb3f9787069a7458ae3b0fe18628d90b3d4a2dabc7644e0"
+    },
+    {
+      "path": "Game/Assets/Resources/FrontierDefault.txt",
+      "sha256": "ec5b0b6416893cf11210e03e27a6e8a848250f5051727a8b95832ebd35ed9baa"
+    },
+    {
+      "path": "Game/Assets/Resources/FrontierProfiles.json",
+      "sha256": "22f9438021db0b8f6cefa7cd8b2297da439df23e9663500efe87874d661f859b"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "40830bede00205ab8e39dacfdc9cd9fa3fca6e0b0bac0561a8777cd0a992c668"
+    }
+  ],
+  "centralBaseline": {
+    "worldRevision": null,
+    "systemRevision": null,
+    "worldDocumentSha256": "4b0b499d6ff92d349214262c06ba639dc7ce4ab346173bc6e6002521c8ef0a07",
+    "systemsDocumentSha256": "7743039a079c0d4831dbe194cc449bc9a6a88168f94994430eed36fea8158943"
+  },
+  "evidencePolicy": "Source observations and candidate lexical matches only. Existing central acceptance evidence is preserved, not rerun or promoted. No credentials or licensed payloads are included.",
+  "world": {
+    "levels": [
+      {
+        "levelId": "frontier-chapter-1",
+        "path": "Game/Assets/Resources/FrontierProfiles.json",
+        "sha256": "22f9438021db0b8f6cefa7cd8b2297da439df23e9663500efe87874d661f859b",
+        "line": 227,
+        "evidenceKind": "source-definition",
+        "detail": "Jax enters the circuit to win safe passage for a stranded salvage crew."
+      },
+      {
+        "levelId": "frontier-chapter-2",
+        "path": "Game/Assets/Resources/FrontierProfiles.json",
+        "sha256": "22f9438021db0b8f6cefa7cd8b2297da439df23e9663500efe87874d661f859b",
+        "line": 233,
+        "evidenceKind": "source-definition",
+        "detail": "The horizon is moving. Rin teaches the runners to turn scrap into routes and cover."
+      },
+      {
+        "levelId": "frontier-chapter-3",
+        "path": "Game/Assets/Resources/FrontierProfiles.json",
+        "sha256": "22f9438021db0b8f6cefa7cd8b2297da439df23e9663500efe87874d661f859b",
+        "line": 239,
+        "evidenceKind": "source-definition",
+        "detail": "Aster can close the rift after the final trial proves who can bring the crew through."
+      }
+    ],
+    "geometry": "Empty unverified schematic containers; no fabricated spatial mapping."
+  },
+  "systems": [
+    {
+      "systemId": "input",
+      "classification": "candidate-source-matches-not-established-behavior",
+      "sources": [
+        {
+          "path": "Game/Assets/Frontier/Unity/FrontierGame.cs",
+          "sha256": "465b04fb9705b254516571caa6691274921d9553b44bb47c815de299aa1f6a19",
+          "line": 36,
+          "excerpt": "InputAction move,aim,interact,attack,build,craft,pause,journal,cancel;"
+        }
+      ]
+    },
+    {
+      "systemId": "locomotion",
+      "classification": "candidate-source-matches-not-established-behavior",
+      "sources": [
+        {
+          "path": "Game/Assets/Frontier/Unity/FrontierGame.cs",
+          "sha256": "465b04fb9705b254516571caa6691274921d9553b44bb47c815de299aa1f6a19",
+          "line": 67,
+          "excerpt": "Gameplay=new InputActionMap(\"Gameplay\");move=Gameplay.AddAction(\"Move\",InputActionType.Value,expectedControlLayout:\"Vector2\");move.AddCompositeBinding(\"2DVector\").With(\"Up\",\"<Keyboard>/w\").With(\"Down\",\"<Keyboard>/s\").With(\"Left\",\"<Keyboard>/a\").With(\"Right\",\"<Keyboard>/d\");move.AddBinding(\"<Gamepad>/leftStick\");"
+        },
+        {
+          "path": "Game/Assets/Frontier/Unity/FrontierProfile.cs",
+          "sha256": "2b4ce1c1fbdfec2dcbb3f9787069a7458ae3b0fe18628d90b3d4a2dabc7644e0",
+          "line": 61,
+          "excerpt": "if(valid){string backupTemp=path+\".bak.tmp\";File.WriteAllText(backupTemp,old);if(File.Exists(path+\".bak\"))File.Replace(backupTemp,path+\".bak\",null);else File.Move(backupTemp,path+\".bak\");}"
+        }
+      ]
+    },
+    {
+      "systemId": "combat",
+      "classification": "candidate-source-matches-not-established-behavior",
+      "sources": [
+        {
+          "path": "Game/Assets/Frontier/Unity/FrontierGame.cs",
+          "sha256": "465b04fb9705b254516571caa6691274921d9553b44bb47c815de299aa1f6a19",
+          "line": 70,
+          "excerpt": "attack=Gameplay.AddAction(\"Attack\",InputActionType.Button,\"<Mouse>/leftButton\");attack.AddBinding(\"<Gamepad>/rightTrigger\");attack.AddBinding(\"<Gamepad>/buttonWest\");"
+        }
+      ]
+    },
+    {
+      "systemId": "story",
+      "classification": "candidate-source-matches-not-established-behavior",
+      "sources": [
+        {
+          "path": "Game/Assets/Frontier/Unity/FrontierGame.cs",
+          "sha256": "465b04fb9705b254516571caa6691274921d9553b44bb47c815de299aa1f6a19",
+          "line": 32,
+          "excerpt": "public string ConnectionLabel {get{return lan==null?\"Solo campaign\":lan.IsHost?\"LAN host · \"+lan.PeerIds.Length+\" / 3 guests · port \"+lan.Port:lan.IsConnected?\"LAN connected · player \"+lan.LocalPlayerId:\"Connecting to LAN host…\";}}"
+        },
+        {
+          "path": "Game/Assets/Frontier/Unity/FrontierProfile.cs",
+          "sha256": "2b4ce1c1fbdfec2dcbb3f9787069a7458ae3b0fe18628d90b3d4a2dabc7644e0",
+          "line": 10,
+          "excerpt": "[Serializable] public sealed class ChapterInfo { public int number,layoutSeed; public string title,story; }"
+        }
+      ]
+    },
+    {
+      "systemId": "save-storage",
+      "classification": "candidate-source-matches-not-established-behavior",
+      "sources": [
+        {
+          "path": "Game/Assets/Frontier/Unity/FrontierGame.cs",
+          "sha256": "465b04fb9705b254516571caa6691274921d9553b44bb47c815de299aa1f6a19",
+          "line": 82,
+          "excerpt": "public void SaveSettings(){Progress.bindings=Gameplay.SaveBindingOverridesAsJson();Store.Save(Progress);if(Store.Notice!=\"\")Notice=Store.Notice;}"
+        },
+        {
+          "path": "Game/Assets/Frontier/Unity/FrontierProfile.cs",
+          "sha256": "2b4ce1c1fbdfec2dcbb3f9787069a7458ae3b0fe18628d90b3d4a2dabc7644e0",
+          "line": 36,
+          "excerpt": "if(value.Length>131072)throw new InvalidDataException(\"Save exceeds maximum size.\");"
+        }
+      ]
+    },
+    {
+      "systemId": "menus",
+      "classification": "candidate-source-matches-not-established-behavior",
+      "sources": [
+        {
+          "path": "Game/Assets/Frontier/Unity/FrontierGame.cs",
+          "sha256": "465b04fb9705b254516571caa6691274921d9553b44bb47c815de299aa1f6a19",
+          "line": 73,
+          "excerpt": "pause=Gameplay.AddAction(\"Pause\",InputActionType.Button,\"<Keyboard>/escape\");pause.AddBinding(\"<Gamepad>/start\");"
+        }
+      ]
+    },
+    {
+      "systemId": "progression",
+      "classification": "candidate-source-matches-not-established-behavior",
+      "sources": [
+        {
+          "path": "Game/Assets/Frontier/Unity/FrontierGame.cs",
+          "sha256": "465b04fb9705b254516571caa6691274921d9553b44bb47c815de299aa1f6a19",
+          "line": 60,
+          "excerpt": "Store=new FrontierProgress(string.IsNullOrEmpty(directory)?Path.Combine(Application.persistentDataPath,\"Campaigns\"):directory,Profile.id);Progress=Store.Load();Notice=Store.Notice;ChapterChoice=Progress.unlocked;"
+        },
+        {
+          "path": "Game/Assets/Frontier/Unity/FrontierProfile.cs",
+          "sha256": "2b4ce1c1fbdfec2dcbb3f9787069a7458ae3b0fe18628d90b3d4a2dabc7644e0",
+          "line": 22,
+          "excerpt": "public int schema=1,unlocked=1,completedMask,quality=1;"
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "limitations": [
+    "Source review only for this migration; no new native playtest was run. Existing saved acceptance evidence retains its original scope.",
+    "Empty layouts are explicitly unverified schematic containers. They contain no invented geometry, spawn locations, portals or population rates.",
+    "World editor bindings are planning references; none of these documents changes engine state, installs assets, or implements level launching."
+  ],
+  "authoredReviewRequired": [],
+  "excludedCatalogEntries": [
+    {
+      "id": "frontier-menu",
+      "kind": "native-development-ui-capture",
+      "title": "Native campaign menu",
+      "reason": "Not promoted automatically; capture/UI/story reference, inactive source, or mapped by current runtime catalog instead."
+    },
+    {
+      "id": "frontier-story",
+      "kind": "native-development-ui-capture",
+      "title": "Story 1",
+      "reason": "Not promoted automatically; capture/UI/story reference, inactive source, or mapped by current runtime catalog instead."
+    },
+    {
+      "id": "frontier-victory1",
+      "kind": "native-development-ui-capture",
+      "title": "Chapter victory 1",
+      "reason": "Not promoted automatically; capture/UI/story reference, inactive source, or mapped by current runtime catalog instead."
+    },
+    {
+      "id": "frontier-story2",
+      "kind": "native-development-ui-capture",
+      "title": "Story 2",
+      "reason": "Not promoted automatically; capture/UI/story reference, inactive source, or mapped by current runtime catalog instead."
+    },
+    {
+      "id": "frontier-victory2",
+      "kind": "native-development-ui-capture",
+      "title": "Chapter victory 2",
+      "reason": "Not promoted automatically; capture/UI/story reference, inactive source, or mapped by current runtime catalog instead."
+    },
+    {
+      "id": "frontier-story3",
+      "kind": "native-development-ui-capture",
+      "title": "Story 3",
+      "reason": "Not promoted automatically; capture/UI/story reference, inactive source, or mapped by current runtime catalog instead."
+    },
+    {
+      "id": "frontier-victory3",
+      "kind": "native-development-ui-capture",
+      "title": "Chapter victory 3",
+      "reason": "Not promoted automatically; capture/UI/story reference, inactive source, or mapped by current runtime catalog instead."
+    },
+    {
+      "id": "frontier-finale",
+      "kind": "native-development-ui-capture",
+      "title": "Native campaign result",
+      "reason": "Not promoted automatically; capture/UI/story reference, inactive source, or mapped by current runtime catalog instead."
+    }
+  ]
+}
